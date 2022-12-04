@@ -1,0 +1,28 @@
+INSTALLING LIBRARIES
+
+1. Download the Adafruit Fingerprint Sensor library. 
+2. You should have a .zip folder in your Downloads folder
+3. Unzip the .zip folder and you should get Adafruit-Fingerprint-Sensor-Library-master folder
+4. Rename your folder from  Adafruit-Fingerprint-Sensor-Library-master folder to  Adafruit_Fingerprint_Sensor_Library folder
+5. Move the folder to your Arduino IDE installation libraries folder
+6. Finally, re-open your Arduino IDE
+
+
+ENROLL A NEW FINGERPRINT
+
+1. In the Arduino IDE, go to File > Examples > Adafruit Fingerprint Sensor Library > Enroll.
+2. Upload the code, and open the serial monitor at a baud rate of 9600.
+3. You should enter an ID for the fingerprint. As this is your first fingerprint, type 1 at the top left corner, and then, click the Send button.
+4. Place your finger on the scanner and follow the instructions on the serial monitor.
+
+You’ll be asked to place the same finger twice on the scanner. If you get the “Prints matched!” message, as shown below, your fingerprint was 
+successfully stored. If not, repeat the process, until you succeed.
+
+FINDING A MATCH
+
+1. In the Arduino IDE, go to File > Examples > Adafruit Fingerprint Sensor Library > Fingerprint and upload the code to your Arduino board.
+2. Open the Serial Monitor at a baud rate of 9600.
+3. Place the finger to be identified on the scan.
+4. On the serial monitor, you can see the ID that matches the fingerprint. It also shows the confidence – the higher the confidence, 
+   the similar the fingerprint is with the stored fingerprint.
+   
